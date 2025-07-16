@@ -73,7 +73,7 @@ p, ul{
   line-height: 1.7;
   color: #BFCFE7;
   font-family: 'Merienda', cursive;
-  text-align: justify;
+  text-align: left;
     padding-left: 10px;
     padding-right: 10px;
 
@@ -98,7 +98,8 @@ a:hover {
   font-weight: 600;
   color: #dd749e;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
-  margin-top: -20px;
+  
+
 }
 
 
@@ -107,7 +108,7 @@ a:hover {
 font-family: 'Playfair Display', serif;
   font-size: 30px;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
-  margin-top: 20px;
+  margin-top: 30px;  padding-bottom: 50px;
 }
 
 #punchline{    max-width: 670px;
