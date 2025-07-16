@@ -104,7 +104,9 @@ font-family: 'Playfair Display', serif;
   margin-top: 20px;
 }
 
-#punchline{  color: #e7a7c2;font-family: 'Merienda', sans-serif;
+#punchline{    max-width: 670px;
+  margin: 0 auto 20px auto;
+  padding: 0 15px; color: #e7a7c2;font-family: 'Merienda', sans-serif;
   }
 #tagline {
   color: #BFCFE7;
