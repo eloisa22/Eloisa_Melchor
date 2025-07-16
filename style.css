@@ -24,15 +24,22 @@ html {
   border-radius: 4px;
 }
 
-.profile  {
-  margin-top: 100px;
-  width: 15%;
+.profile {
+  margin-top: 50px;
+  width: 200px;
+  max-width: 80%;
   height: auto;
-  border-radius: 30px;
+  border-radius: 20px;
   border: ridge;
   border-color: #dd749e;
+  transition: all 0.3s ease;
 }
-
+@media (max-width: 600px) {
+  .profile {
+    width: 60%;
+    border-radius: 20px;
+  }
+}
 #welcome {
   display: table;
   width: 100%;
@@ -79,11 +86,11 @@ a:hover {
   font-size: 50px;
 }
 
- #hello {
-  color: #dd749e;
-font-family: 'Sora', sans-serif;
-
+#hello {
+  font-family: 'Sora', sans-serif;
   font-size: 36px;
+  font-weight: 600;
+  color: #dd749e;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
   margin-top: 100px;
 }
