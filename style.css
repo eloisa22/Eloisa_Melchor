@@ -63,6 +63,7 @@ p {
   text-align: center;
     padding-left: 10px;
     padding-right: 10px;
+
 }
 
 a {
@@ -80,7 +81,8 @@ a:hover {
 
  #hello {
   color: #dd749e;
-  font-family: 'Water Brush', cursive;
+font-family: 'Sora', sans-serif;
+
   font-size: 36px;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
   margin-top: 100px;
@@ -89,7 +91,7 @@ a:hover {
 
 #bio, #testimonial, #experience, #contact {
   color: #e7a7c2;
-  font-family: 'Water Brush', cursive;
+font-family: 'Playfair Display', serif;
   font-size: 30px;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
   margin-top: 20px;
