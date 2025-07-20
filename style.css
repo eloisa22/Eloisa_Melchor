@@ -4,6 +4,26 @@ body {
   background: linear-gradient(rgba(24, 23, 23, 0.842) 10%, black 70%); padding-left: 30px; padding-right: 30px; 
 }
 
+.testimonial-row {
+  display: inline-flex;     /* acts like div flex but with span */
+  flex-wrap: nowrap;
+  justify-content: center;  /* or 'space-between' if you want more spacing */
+  gap: 20px;                /* space between the two images */
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.testimonial-row img {
+  width: 45%;               /* ensures two fit in one line */
+  height: auto;
+  object-fit: contain;
+}
+
+.content-wrapper {
+  max-width: 85%;  /* wider than 960px */
+  margin: 0 auto;
+  padding: 0 30px;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -107,7 +127,19 @@ a:hover {
 
 }
 
+#experience {
+  display: flex;
+  justify-content: center; /* centers the wrapper */
+  padding: 40px 0;
+}
 
+.experience-content {
+  width: 85%;
+  max-width: 900px;
+  margin: 0 auto;         /* centers the box */
+  text-align: left;       /* keeps text aligned to left inside */
+  padding-top: 20px;
+}
 #bio, #testimonial, #experience, #contact {
   color: #e7a7c2;
 font-family: 'Playfair Display', serif;
