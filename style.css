@@ -104,6 +104,9 @@ p, ul{
 
 }
 
+#below_tagline{;}
+  color: #BFCFE7;
+
 a {
   text-decoration: none;
   color: #dd749e;
