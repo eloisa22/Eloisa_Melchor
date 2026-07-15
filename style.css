@@ -103,7 +103,7 @@ section:not(#welcome):not(:last-of-type)::after {
   margin: 30px auto 0 auto;
 }
 
-#bio, #testimonial, #experience, #contact, #philosophy, #cert, #cert2, #reco, #teaching {
+#bio, #testimonial, #experience, #contact, #philosophy, #cert, #cert2, #reco, #teaching, #specialties, .voice-testimonial{
   color: #e7a7c2;
   font-family: 'Playfair Display', serif;
   font-size: 30px;
